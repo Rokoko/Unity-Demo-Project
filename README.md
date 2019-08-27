@@ -4,6 +4,8 @@
 
 This sample project for Unity contains a more advanced setup with HTC vive integration for virtual camera use and facial live streaming using the Rokoko Remote app. 
 
+![Unity Viewport](Images/unityViewport.PNG?raw=true)
+
 If you want to learn more about the basics of setting up a Smartsuit with Unity, you can watch this tutorial: https://www.rokoko.com/en/explore/blog/how-to-forward-real-time-data-to-your-character-in-unity 
 Or you can browse the tutorials on https://www.rokoko.com/
 
