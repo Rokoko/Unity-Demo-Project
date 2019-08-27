@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1301154857917700}
+  m_IsPrefabParent: 1
+--- !u!1 &1301154857917700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4768127653255510}
+  - component: {fileID: 137950315794654048}
+  - component: {fileID: 95664720011911414}
+  - component: {fileID: 114855907800741506}
+  m_Layer: 0
+  m_Name: Newtonface
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4768127653255510
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1301154857917700}
+  m_LocalRotation: {x: -1.0835379e-18, y: -0.017695518, z: 0.9998435, w: 6.122276e-17}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &95664720011911414
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1301154857917700}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: a323319472b899344929acbb0b202517, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114855907800741506
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1301154857917700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c92395c23241d299d0dc17d10854e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  faceId: 
+  _faceSkin: {fileID: 137950315794654048}
+  logWarnings: 0
+  _blendshapeMapping:
+    eyeBlinkLeft: eyeBlinkLeft
+    eyeLookDownLeft: eyeLookDownLeft
+    eyeLookInLeft: eyeLookInLeft
+    eyeLookOutLeft: eyeLookOutLeft
+    eyeLookUpLeft: eyeLookUpLeft
+    eyeSquintLeft: eyeSquintLeft
+    eyeWideLeft: eyeWideLeft
+    eyeBlinkRight: eyeBlinkRight
+    eyeLookDownRight: eyeLookDownRight
+    eyeLookInRight: eyeLookInRight
+    eyeLookOutRight: eyeLookOutRight
+    eyeLookUpRight: eyeLookUpRight
+    eyeSquintRight: eyeSquintRight
+    eyeWideRight: eyeWideRight
+    jawForward: jawForward
+    jawLeft: jawLeft
+    jawRight: jawRight
+    jawOpen: jawOpen
+    mouthClose: mouthClose
+    mouthFunnel: mouthFunnel
+    mouthPucker: mouthPucker
+    mouthLeft: mouthLeft
+    mouthRight: mouthRight
+    mouthSmileLeft: mouthSmileLeft
+    mouthSmileRight: mouthSmileRight
+    mouthFrownLeft: mouthFrownLeft
+    mouthFrownRight: mouthFrownRight
+    mouthDimpleLeft: mouthDimpleLeft
+    mouthDimpleRight: mouthDimpleRight
+    mouthStretchLeft: mouthStretchLeft
+    mouthStretchRight: mouthStretchRight
+    mouthRollLower: mouthRollLower
+    mouthRollUpper: mouthRollUpper
+    mouthShrugLower: mouthShrugLower
+    mouthShrugUpper: mouthShrugUpper
+    mouthPressLeft: mouthPressLeft
+    mouthPressRight: mouthPressRight
+    mouthLowerDownLeft: mouthLowerDownLeft
+    mouthLowerDownRight: mouthLowerDownRight
+    mouthUpperUpLeft: mouthUpperUpLeft
+    mouthUpperUpRight: mouthUpperUpRight
+    browDownLeft: browDownLeft
+    browDownRight: browDownRight
+    browInnerUp: browInnerUp
+    browOuterUpLeft: browOuterUpLeft
+    browOuterUpRight: browOuterUpRight
+    cheekPuff: cheekPuff
+    cheekSquintLeft: cheekSquintLeft
+    cheekSquintRight: cheekSquintRight
+    noseSneerLeft: noseSneerLeft
+    noseSneerRight: noseSneerRight
+    tongueOut: tongueOut
+--- !u!137 &137950315794654048
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1301154857917700}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5d78e7b7726414b479030a15d345875f, type: 2}
+  - {fileID: 2100000, guid: 5708dad6a6be1554ab1c63bca4099af3, type: 2}
+  - {fileID: 2100000, guid: 99221c1c480727146b2d09640d2768c9, type: 2}
+  - {fileID: 2100000, guid: a835cb27bad8ace4296a002e82a5cc72, type: 2}
+  - {fileID: 2100000, guid: 29af645e3e003c040a6b2f203c573f6e, type: 2}
+  - {fileID: 2100000, guid: e9e693611be8f7d41915d9ed208395ce, type: 2}
+  - {fileID: 2100000, guid: 1bd003c9557829a48b877f860f0fa6e9, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 1
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: a323319472b899344929acbb0b202517, type: 3}
+  m_Bones: []
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 0}
+  m_AABB:
+    m_Center: {x: 0.0000022947788, y: -0.045209832, z: 0.016516335}
+    m_Extent: {x: 0.079891995, y: 0.12795347, z: 0.114860944}
+  m_DirtyAABB: 0

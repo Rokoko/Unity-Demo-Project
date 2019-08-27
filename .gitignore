@@ -1,0 +1,58 @@
+
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Obj/
+UnityGenerated/
+Library/
+bin/
+doc~/
+
+
+# ===================================== #
+# Builds #
+# ===================================== #
+Builds/
+
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+*.pdb
+.vs/
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+link.xml
+#include all assets folder
+!Assets/**/*
+!Installer/**/*
+Installer/WindowsAssets/WindowsOutput/*
+#exclude version file
+Assets/Resources/git_studio_version.txt
+Assets/Resources/git_studio_version.txt.meta
+
+\.vs/UnitySensorPlayGround/v15/sqlite3/storage\.ide
+.idea
+Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta
+Assets/Plugins/Editor/JetBrains.meta
