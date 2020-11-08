@@ -417,6 +417,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6057140222963153312, guid: bbda5b17b47949e4b922090d45fe3006,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: bbda5b17b47949e4b922090d45fe3006,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -430,7 +435,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: bbda5b17b47949e4b922090d45fe3006,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: bbda5b17b47949e4b922090d45fe3006,
         type: 3}
@@ -507,6 +512,16 @@ PrefabInstance:
       propertyPath: m_BlendShapeWeights.Array.data[1]
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4413883175904260059, guid: bbda5b17b47949e4b922090d45fe3006,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413883175904260059, guid: bbda5b17b47949e4b922090d45fe3006,
+        type: 3}
+      propertyPath: m_RootBone
+      value: 
+      objectReference: {fileID: 557312522}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbda5b17b47949e4b922090d45fe3006, type: 3}
 --- !u!1 &216924925 stripped
@@ -534,9 +549,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blendshapeMapping: 0
-  blendshapeCustomMap: {fileID: 0}
+  blendshapeCustomMap: {fileID: 216924930}
   meshRenderer: {fileID: 1461943820}
-  debug: 0
+  debug: 1
 --- !u!114 &216924929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -558,6 +573,18 @@ MonoBehaviour:
   face: {fileID: 216924928}
   autoHideFaceWhenInactive: 0
   debug: 0
+--- !u!114 &216924930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216924925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a3f22e5c105474e9725d5438558a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &309312757 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 014c07d258ad35749a47c19af58012e3,
@@ -1090,6 +1117,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff7349fdee5066c4ca9678d77c7a983a, type: 3}
+--- !u!4 &557312522 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5851465845282784930, guid: bbda5b17b47949e4b922090d45fe3006,
+    type: 3}
+  m_PrefabInstance: {fileID: 216924924}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &614101040
 GameObject:
   m_ObjectHideFlags: 0
