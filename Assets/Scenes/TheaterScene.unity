@@ -477,17 +477,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: mimeCharacter
       objectReference: {fileID: 0}
+    - target: {fileID: 4413883175904260059, guid: bbda5b17b47949e4b922090d45fe3006,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413883175904260059, guid: bbda5b17b47949e4b922090d45fe3006,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1bf94cedf27f8ff4491fe9d874176340, type: 2}
+    - target: {fileID: 4413883175904260059, guid: bbda5b17b47949e4b922090d45fe3006,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5415936900baaf64a834e2d28ad77d7b, type: 2}
+    - target: {fileID: 4413883175904260059, guid: bbda5b17b47949e4b922090d45fe3006,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 98c8af4069a3b5341bd618fa583c7bf3, type: 2}
+    - target: {fileID: 4413883175904260059, guid: bbda5b17b47949e4b922090d45fe3006,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413883175904260059, guid: bbda5b17b47949e4b922090d45fe3006,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbda5b17b47949e4b922090d45fe3006, type: 3}
 --- !u!1 &216924925 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: bbda5b17b47949e4b922090d45fe3006,
-    type: 3}
-  m_PrefabInstance: {fileID: 216924924}
-  m_PrefabAsset: {fileID: 0}
---- !u!137 &216924926 stripped
-SkinnedMeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -4224244390742160433, guid: bbda5b17b47949e4b922090d45fe3006,
     type: 3}
   m_PrefabInstance: {fileID: 216924924}
   m_PrefabAsset: {fileID: 0}
@@ -511,7 +535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blendshapeMapping: 0
   blendshapeCustomMap: {fileID: 0}
-  meshRenderer: {fileID: 216924926}
+  meshRenderer: {fileID: 1461943820}
   debug: 0
 --- !u!114 &216924929
 MonoBehaviour:
@@ -525,7 +549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b3d830ef66b485459e15992199096b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profileName: Ryan
+  profileName: DemoProfile
   boneMapping: 0
   animator: {fileID: 216924927}
   customBoneMapping: {fileID: 0}
@@ -1529,6 +1553,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a33634fa6000b174c9ded30db6553359, type: 3}
+--- !u!137 &1461943820 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 4413883175904260059, guid: bbda5b17b47949e4b922090d45fe3006,
+    type: 3}
+  m_PrefabInstance: {fileID: 216924924}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1535957468
 PrefabInstance:
   m_ObjectHideFlags: 0
