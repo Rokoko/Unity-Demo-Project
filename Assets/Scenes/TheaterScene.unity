@@ -549,7 +549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b3d830ef66b485459e15992199096b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profileName: DemoProfile
+  profileName: Ryan
   boneMapping: 0
   animator: {fileID: 216924927}
   customBoneMapping: {fileID: 0}
