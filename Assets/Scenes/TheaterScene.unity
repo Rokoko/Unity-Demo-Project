@@ -551,7 +551,7 @@ MonoBehaviour:
   blendshapeMapping: 0
   blendshapeCustomMap: {fileID: 216924930}
   meshRenderer: {fileID: 1461943820}
-  debug: 1
+  debug: 0
 --- !u!114 &216924929
 MonoBehaviour:
   m_ObjectHideFlags: 0
